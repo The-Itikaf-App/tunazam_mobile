@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'package:remixicon/remixicon.dart';
+import "package:flutter/material.dart";
+import "package:remixicon/remixicon.dart";
 
 class BottomNav extends StatefulWidget {
   const BottomNav({Key? key}) : super(key: key);
