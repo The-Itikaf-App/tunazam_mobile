@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import "package:remixicon/remixicon.dart";
+import "package:tunazam_mobile/screens/home.dart";
 
 class BottomNav extends StatefulWidget {
   const BottomNav({Key? key}) : super(key: key);
@@ -11,8 +12,8 @@ class BottomNav extends StatefulWidget {
 class _BottomNavState extends State<BottomNav> {
   int _selectedIndex = 0;
 
-  static final List<Widget>_screenList = <Widget>[
-    const Text("Hello"),
+  static final List<Widget> _screenList = <Widget>[
+    const Home(),
     const Text("Hello 2"),
     const Text("Hello 3"),
     const Text("Hello 4"),
@@ -27,7 +28,12 @@ class _BottomNavState extends State<BottomNav> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(child: _screenList.elementAt(_selectedIndex)),
+      // body: Center(child: _screenList.elementAt(_selectedIndex)),
+      body: Center(
+          child: Container(
+        // padding: const EdgeInsets.only(top: 90),
+        child: Center(child: _screenList.elementAt(_selectedIndex)),
+      )),
       bottomNavigationBar: BottomNavigationBar(
         items: const [
           BottomNavigationBarItem(
