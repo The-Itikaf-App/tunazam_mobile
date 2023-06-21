@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:tunazam_mobile/assets/base_style.dart";
 // import "package:draggable_bottom_sheet/draggable_bottom_sheet.dart";
 
 class Home extends StatefulWidget {
@@ -35,7 +36,7 @@ class _HomeState extends State<Home> {
       body: Container(
         padding: const EdgeInsets.only(top: 90),
         decoration: BoxDecoration(
-          color: Colors.green
+          color: Styles.accentColor
         ),
         child: Column(
           // wrapper
@@ -43,15 +44,15 @@ class _HomeState extends State<Home> {
             Column(
               // first child
               children: [
-                const Text("Days to next Itikaf"),
-                const Text("144 Days"),
+                Text("Days to next Itikaf", style: Styles.headLine5,),
+                Text("144 Days", style: Styles.headLine1,),
                 const Column(
                   children: [
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text("Recent Activity"),
-                        Text("See 1 All"),
+                        Text("See All"),
                       ],
                     )
                   ],

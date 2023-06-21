@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:tunazam_mobile/assets/base_style.dart";
 import "package:tunazam_mobile/screens/bottom_nav.dart";
 
 void main() {
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       title: "Flutter Demo",
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        primaryColor: primaryColor,
         useMaterial3: true,
         splashFactory: NoSplash.splashFactory,
       ),

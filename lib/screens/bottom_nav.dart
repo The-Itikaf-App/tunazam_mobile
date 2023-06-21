@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import "package:remixicon/remixicon.dart";
+import "package:tunazam_mobile/assets/base_style.dart";
 import "package:tunazam_mobile/screens/home.dart";
 
 class BottomNav extends StatefulWidget {
@@ -35,6 +36,7 @@ class _BottomNavState extends State<BottomNav> {
         child: Center(child: _screenList.elementAt(_selectedIndex)),
       )),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Styles.accentColor,
         items: const [
           BottomNavigationBarItem(
             label: "Home1",
@@ -57,8 +59,8 @@ class _BottomNavState extends State<BottomNav> {
             activeIcon: Icon(Remix.user_6_fill),
           ),
         ],
-        unselectedItemColor: Colors.amber[800],
-        selectedItemColor: Colors.amber[800],
+        unselectedItemColor: Styles.blackColor,
+        selectedItemColor: Styles.blackColor,
         currentIndex: _selectedIndex,
         enableFeedback: false,
         type: BottomNavigationBarType.fixed,
