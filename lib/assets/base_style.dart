@@ -24,17 +24,17 @@ class Styles {
   static Color blackColor = const Color(0xff1a1f1b);
   static Color textColor = const Color(0xffedeec0);
   static TextStyle textStyle =
-      const TextStyle(fontSize: 16, fontWeight: FontWeight.w500, letterSpacing: 0);
+      TextStyle(fontSize: 16, fontWeight: FontWeight.w500, letterSpacing: 0);
   static TextStyle headLine1 =
-      const TextStyle(fontSize: 45, fontWeight: FontWeight.bold, letterSpacing: 0);
+      TextStyle(fontSize: 45, fontWeight: FontWeight.bold, letterSpacing: 0);
   static TextStyle headLine2 =
-      const TextStyle(fontSize: 32, fontWeight: FontWeight.bold, letterSpacing: 0);
+      TextStyle(fontSize: 32, fontWeight: FontWeight.bold, letterSpacing: 0);
   static TextStyle headLine3 =
-      const TextStyle(fontSize: 26, fontWeight: FontWeight.bold, letterSpacing: 0);
+      TextStyle(fontSize: 26, fontWeight: FontWeight.bold, letterSpacing: 0);
   static TextStyle headLine4 =
-      const TextStyle(fontSize: 21, fontWeight: FontWeight.bold, letterSpacing: 0);
+      TextStyle(fontSize: 21, fontWeight: FontWeight.bold, letterSpacing: 0);
   static TextStyle headLine5 =
-      const TextStyle(fontSize: 17, fontWeight: FontWeight.w500, letterSpacing: 0);
+      TextStyle(fontSize: 17, fontWeight: FontWeight.w500, letterSpacing: 0);
   static TextStyle headLine6 =
-      const TextStyle(fontSize: 14, fontWeight: FontWeight.w500, letterSpacing: 0);
+      TextStyle(fontSize: 14, fontWeight: FontWeight.w500, letterSpacing: 0);
 }
