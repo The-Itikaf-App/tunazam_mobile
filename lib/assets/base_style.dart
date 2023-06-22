@@ -22,7 +22,10 @@ class Styles {
   static Color pryColor = primaryColor;
   static Color accentColor = const Color(0xffedeec0);
   static Color blackColor = const Color(0xff1a1f1b);
+  static Color grayAlt3Color = const Color(0xffd9d9d9);
+
   static Color textColor = const Color(0xffedeec0);
+
   static TextStyle textStyle =
       TextStyle(fontSize: 16, fontWeight: FontWeight.w500, letterSpacing: 0);
   static TextStyle headLine1 =
